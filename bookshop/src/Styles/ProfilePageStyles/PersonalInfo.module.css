@@ -1,0 +1,119 @@
+.Container_Main_Info {
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: #292524;
+  border-radius: 7px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.SubContainerInputs {
+  width: 100%;
+  height: 100%;
+}
+.Edit_Sections {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  color: #a8a29e;
+  padding-bottom: 20px;
+}
+.Edit_Sections p {
+  font-size: 17px;
+  font-weight: 750;
+}
+
+.Edit_Sections p i {
+  font-size: 22px;
+  margin-right: 12px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 100%;
+  color: #10b981;
+}
+.Edit_Sections button {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  color: #a8a29e;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.Edit_Sections button i {
+color: #a8a29e; /* Corresponde a 'silver' */
+font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */
+font-weight: 500;
+margin-bottom: 0.25rem; /* 4px */
+margin-right: 10px;
+}
+.Show_Personal_Info {
+  width: 100%;
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Show_Personal_Info p {
+color: #a8a29e; /* Corresponde a 'silver' */
+font-size: 0.875rem; /* 14px */
+line-height: 1.25rem; /* 20px */
+font-weight: 500;
+margin-bottom: 0.25rem; /* 4px */
+}
+.Show_Personal_Info p span {
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+}
+.ContainerInputs {
+  width: 400;
+  height: 100%;
+  padding: 20px;
+  background-color: #292524;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.154);
+}
+
+.Update_ButtonsOp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Update_ButtonsOp button {
+  width: auto;
+  height: 45px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 650;
+  border-radius: 7px;
+  border: none;
+  background: #10b981;
+}
+.Update_ButtonsOp button:nth-child(1):hover {
+  background-color: #34d399;
+}
+.Update_ButtonsOp button:nth-child(2) {
+  background: none;
+  color: #a8a29e;
+}
+.Update_ButtonsOp button:nth-child(2) i {
+  margin-right: 5px;
+}

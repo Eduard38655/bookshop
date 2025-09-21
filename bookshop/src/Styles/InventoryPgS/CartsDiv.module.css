@@ -1,0 +1,182 @@
+.Cartas {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 25px;
+  font-family: sans-serif;
+}
+.DivCarts {
+  width: auto;
+  height: 400px;
+  background-color: #292524;
+  gap: 20px;
+  border-radius: 8px;
+  transition: 1s ease-in-out;
+  scale: 1;
+}
+.DivCarts:hover {
+  transform: scale(1.1);
+}
+
+.DivCarts img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0px 0px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.DivCarts:hover .DivCarts {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+}
+.DivImg {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+.DivImg p {
+  min-width: 50px;
+  width: auto;
+  position: absolute;
+  padding: 5px;
+  margin-left: 220px;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 20px;
+  background: #10b981;
+  color: #1c1917;
+  font-size: 14px;
+  font-weight: 500;
+}
+.DivText {
+  width: fit-content;
+  height: 115px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.DivText h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #10b981;
+  letter-spacing: 1px;
+}
+.DivText h3 {
+  font-size: 17px;
+  font-weight: 800;
+  color: white;
+}
+.DivText p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.391);
+}
+.DivButttonAdd {
+  width: auto;
+  height: 45px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.DivButttonAdd button {
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 550;
+  border-radius: 8px;
+  background: #10b981;
+  color: #1c1917;
+  border: none;
+}
+.DivButttonAdd button:hover {
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.DivButttonAdd button i {
+  margin-right: 5px;
+}
+.DivButttonAdd h3 {
+  font-size: 23px;
+  font-weight: 800;
+  color: white;
+}
+
+.NotFounInv{
+  width: 100%;
+  height: 400px;
+   font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.32);
+}
+
+@media screen and (max-width: 768px){
+  .Cartas {
+  width:375px;
+  height: auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+gap: 30px;
+}
+.DivCarts {
+  width:320px;
+  height: 350px;
+  background-color: #292524;
+  gap: 20px;
+  border-radius: 8px;
+  transition: 1s ease-in-out;
+  scale: 1;
+}
+.DivButttonAdd {
+  width: 100%;
+  height: 45px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.DivButttonAdd button {
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 550;
+  border-radius: 8px;
+  background: #10b981;
+  color: #1c1917;
+  border: none;
+}
+.DivButttonAdd h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+.DivImg {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+ .DivText h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #10b981;
+  letter-spacing: 1px;
+}
+.DivText h3 {
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+}
+}

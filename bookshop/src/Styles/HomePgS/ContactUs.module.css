@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ContactUs_Container {
+  width: 550px;
+  height: 600px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+gap: 20px;
+ 
+ }
+.ContactUs_Container h2 {
+color: white;
+font-weight: 650px;
+
+}
+.ContactUs_Container .Content_info {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+    background-color: #202938;
+    padding: 20px;
+    border-radius: 6px;
+}
+.Content_info div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+flex-direction: column;
+justify-content:space-between;
+}
+.Content_info div textarea{
+    width: auto;
+    height: 190px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:500;
+     border-radius: 5px;
+     background: #394352;
+     border: 1px solid  #394352;
+     color: white;
+}
+
+.Content_info div textarea:focus{
+    outline: none;
+    border: 2px solid #FFC700;;
+}
+.Content_info div label{
+    margin-bottom: -10px;
+    color: #E0E0E0;
+}
+.Content_info div label span{
+    color: red;
+}
+.ContactUs_Container div input {
+  width: auto;
+  padding: 15px;
+  height: 10px;
+   font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+background: #394352;
+ border: 1px solid  #394352;
+ color: white;
+}
+.ContactUs_Container div input:focus{
+    outline: none;
+    border: 2px solid #FFC700;;
+}
+.Content_info div button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+     border-radius: 5px;
+     background: #FFC700;
+     color: #121826;
+     border: none;
+     font-size: 17px;
+     font-weight: 600;
+     cursor: pointer;
+     
+}
+.Content_info div button:hover{
+background:  #FFD84D;
+}
+ 

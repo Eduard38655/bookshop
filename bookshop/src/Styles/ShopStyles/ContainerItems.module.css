@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  height: 100%;
+
+  background: #1c1917;
+}
+.ArticleContainer_Shop {
+  width: 100%;
+  height: auto;
+}
+.SubContainer_Shop {
+  width: auto;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  .SubContainer_Shop{
+    width: auto;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  }
+  .ArticleContainer_Shop {
+  width: 100%;
+  height: 100%;
+}
+}

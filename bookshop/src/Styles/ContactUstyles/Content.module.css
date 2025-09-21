@@ -1,0 +1,81 @@
+.DivContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+ 
+  justify-content: center;
+ 
+  flex-direction: row;
+  gap: 20px;
+  padding: 30px;
+}
+.DivInfoContact {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #292524;
+  padding: 20px;
+  justify-content: space-evenly;
+   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+   border-style: 1px solid #44403c;
+  border-radius: 7px;
+}
+
+.DivInfoContact div {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.DivInfoContact i {
+  font-size: 20px;
+  text-align: center;
+  color: #10b981;
+  font-weight: 650;
+}
+.DivInfoContact div p {
+  width: fit-content;
+  color: grey;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.DivInfoContact div p span {
+  font-size: 17px;
+  font-weight: 650;
+  color: white;
+}
+.DivContainer h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 750;
+}
+
+@media screen and (max-width: 768px) {
+.DivContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+ 
+  justify-content: center;
+ 
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+.DivInfoContact {
+  width: auto;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background: #292524;
+  padding: 20px;
+  justify-content: space-evenly;
+   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+   border-style: 1px solid #44403c;
+  border-radius: 7px;
+}
+}

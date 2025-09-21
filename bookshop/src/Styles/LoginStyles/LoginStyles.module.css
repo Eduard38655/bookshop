@@ -1,0 +1,102 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #1c1917;
+}
+.InputContainer {
+  width: 380px;
+  height: 429px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background: #292524;
+  border-radius: 10px;
+}
+.InputContainer h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+.InputContainer h2 span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.548);
+}
+.InputContainer div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.DivInputs {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.DivInputs div {
+  width: auto;
+  height: auto;
+  gap: 10px;
+}
+.InputContainer .DivInputs div input {
+  width: auto;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+  font-weight: 550;
+  border: none;
+  border-radius: 6px;
+  background: #44403c;
+  border-style: 1px solid #44403c;
+}
+.InputContainer .DivInputs div label {
+  font-size: 14px;
+  font-weight: 650;
+  color: rgba(255, 255, 255, 0.548);
+}
+.DivInputs div input:focus {
+  outline: none;
+}
+.InputContainer button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 6px;
+  background: #10b981;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.InputContainer button:hover {
+  background: #34d399;
+}
+
+
+.InputContainer p> a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.457);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}

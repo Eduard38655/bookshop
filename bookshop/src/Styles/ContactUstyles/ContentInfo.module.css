@@ -1,0 +1,71 @@
+.DivContactInfo {
+  width: 400px;
+  height: 480px;
+  background: #292524;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 7px;
+  gap: 15px;
+   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+   border-style: 1px solid #44403c;
+}
+.DivInputInfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+textarea {
+  width: auto;
+  height: 100px;
+  background: transparent;
+  border: none;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 14px;
+  color: white;
+  background: #44403c;
+  font-weight: 550;
+}
+.DivInputInfo > input {
+  border: none;
+ 
+  font-size: 14px;
+  font-weight: 550;
+  color: white;
+  width: auto;
+  height: 45px;
+  padding: 15px;
+  background: #44403c;
+  border-radius: 7px;
+}
+.DivInputInfo > input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+
+.DivInputInfo label {
+  font-size: 14px;
+  font-weight: 650;
+  color: rgba(255, 255, 255, 0.548);
+  margin-bottom: 5px;
+}
+.DivContactInfo button {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: 650;
+  cursor: pointer;
+}
+ 

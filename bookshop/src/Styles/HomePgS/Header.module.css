@@ -1,0 +1,219 @@
+:root {
+  --bg: #292524;
+  --accent: #9e876d;
+  --muted: #a8a29e;
+  --cta: #10b981;
+  --white: #ffffff;
+}
+
+/* reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAV */
+.Nav_Container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.079);
+}
+
+/* izquierda (logo + links) */
+.Nav_Subcontent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Nav_Subcontent img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.Nav_IconTitle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* lista de navegación */
+.Nav_Link_DIv ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+
+.Nav_Link_DIv li {
+  list-style: none;
+  color: #f5f5f4;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.Nav_Link_DIv li:hover {
+  color: white;
+  background-color: #44403c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Nav_Link_DIv .NavLink {
+  display: inline-block;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.Nav_Link_DIv .NavLink:hover,
+.Nav_Link_DIv .NavLink:focus {
+  background-color: #4d3a2c;
+  outline: none;
+}
+
+/* título / marca */
+.Nav_Container h1 {
+  font-size: 1.7rem;
+  color: var(--white);
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+/* botones derecha */
+.Nav_Buttons_ {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* icon buttons */
+.Nav_Buttons_ button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: var(--muted);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* focus visible para accesibilidad */
+.Nav_Buttons_ button:focus,
+.Nav_Buttons_ .Button_NavLinkLogin:focus,
+.Nav_Link_DIv .NavLink:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.12);
+  outline-offset: 3px;
+}
+
+/* estilo para link de login (anchor) */
+.Button_NavLinkLogin {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #000;
+  background: var(--cta);
+  text-decoration: none;
+}
+
+/* pequeños ajustes responsivos */
+@media screen and (max-width: 768px){
+  .Nav_Link_DIv ul {
+    display: none;
+  } /* ocultar links en móvil (puedes reemplazar por hamburger) */
+  .Nav_Container {
+    padding: 0 12px;
+  }
+  .Nav_Container h1 {
+    font-size: 1.1rem;
+  }
+  .Nav_Buttons_ button {
+    font-size: 1rem;
+    padding: 6px;
+  }
+}
+.Logout {
+  padding: 8px 12px;
+  border: none;
+  font-size: 0.95rem;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:   0.2s ease;
+}
+
+.Logout:hover {
+  background-color: #b91c1c;
+}
+
+@media screen and (max-width: 768px){
+  .Nav_Container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  background: var(--bg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.079);
+}.Nav_Container h1 {
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 800;
+  margin-left: 0px;
+}
+
+.Nav_Subcontent img {
+  width: none;
+  height: none;
+  object-fit: cover;
+display: none;
+}
+.Nav_Link_DIv ul {
+  display: flex;
+  gap:10px;
+  align-items: center;
+  list-style: none;
+  align-items: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+
+.Nav_Link_DIv li {
+  list-style: none;
+  color: #f5f5f4;
+  font-weight: 700;
+ 
+  font-size: 12px;
+  text-align: center;
+}
+.Nav_Buttons_ {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+}

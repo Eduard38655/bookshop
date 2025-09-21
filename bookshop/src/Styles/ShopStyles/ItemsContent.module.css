@@ -1,0 +1,233 @@
+.AsideDiv {
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.SubAsideContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.SubAsideContainer h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.ContainerItems {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.ItemsContent {
+  width: 820px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  background: #292524;
+
+  padding: 10px;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.655);
+}
+
+.Item {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+.Item h3 {
+  font-size: 15px;
+  color: white;
+  width: fit-content;
+  font-weight: 750;
+}
+.Item h3 span {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  color: rgba(255, 255, 255, 0.394);
+  font-size: 13px;
+  font-weight: 500;
+}
+.Item button {
+  width: 35px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+.DivButtonsItems {
+  width: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  color: white;
+  border-radius: 6px;
+}
+.ItemPrice {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  justify-content: space-around;
+}
+.ItemPrice span {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  width: fit-content;
+}
+
+.ItemPrice button {
+  width: 70px;
+  height: 45px;
+  background: none;
+  font-size: 17px;
+  color: #10b981;
+  border: none;
+  cursor: pointer;
+}
+
+.PaginationDiv {
+  width: auto;
+  height: auto;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+
+  background-color: #1c1917;
+  border: 1px solid rgba(245, 244, 244, 0.076);
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+li {
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+}
+.EmpDiv {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.EmpDiv i {
+  font-size: 80px;
+  color: white;
+}
+.EmpDiv h3 {
+  font-size: 33px;
+  color: white;
+  font-weight: 750;
+}
+.EmpDiv p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.496);
+  font-weight: 650;
+}
+
+@media screen and (max-width: 768px){
+  .EmpDiv p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .EmpDiv h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: 750;
+  }
+  .EmpDiv i {
+    font-size: 60px;
+    color: white;
+  }
+  .AsideDiv {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.ItemsContent {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  background: #292524;
+
+  padding: 10px;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.655);
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.Item {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+}

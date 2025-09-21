@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.MainImg_Container {
+  width: 100%;
+  height: 570px;
+}
+.MainImg_Subcontent {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+}
+
+.backimg {
+  width: 100%;
+  height: 550px;
+  background-image:
+    linear-gradient(black, #961b1b1b, #4f4c4c38, #00000038),
+    url("../../Images/wallpaperbetter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+.MainImg_text {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+}
+
+.MainImg_text h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+}
+.MainImg_text p {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+@media screen and (max-width: 768px){
+  .MainImg_Container {
+  width: 100%;
+  height: 250px;
+}
+  .backimg {
+    width: 100%;
+    height:250px;
+    background-image:
+      linear-gradient(black, #961b1b1b, #4f4c4c38, #00000038),
+      url("../../Images/wallpaperbetter.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+  }
+  .MainImg_text {
+    width: 100%;
+    height: 350px;
+    display: flex;
+
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .MainImg_text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+  }
+  .MainImg_text p {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.54);
+  }
+}
